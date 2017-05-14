@@ -367,7 +367,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   overflow: hidden;
   width: 100%;
   height: 99%;
-  background-color: rgba(231, 76, 60,.6);
+  background-color: rgba(255, 255, 255,.6);
   text-align: center;
   opacity:0;
   filter: alpha(opacity=0);
@@ -445,6 +445,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   line-height: 1;
   color: #ffffff;
   text-align: center;
+  float: right;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
@@ -669,12 +670,14 @@ Change widths as necessary
    border-left: 1px solid #f1f1f1;
  }
  /* COLUMN GRID */
- .g1,.g2,.g3 {display:inline; float: left}
+ .g1,.g2,.g3,.g4,.g5 {display:inline; float: left}
 
  /* 2 COLUMN GRID */
  .g1 {width:48.0%}
  .g2 {width:48.0%}
  .g3 {width:98.0%}
+ .g4 {width:68.0%}
+ .g5 {width:28.0%; margin-left: 2%;}
 }
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
